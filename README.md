@@ -32,13 +32,14 @@ A web application built to manage user details through CRUD operations **(Create
 
 ## ⚙️ Functionality
 
+
 - **View Users**: Fetches user data via GET /users and displays in a paginated table.
 - **Add User**: Submits new user data via POST /users with client-side validation.
-Edit User: Updates user data via PUT /users/:id using a prefilled form.
-Delete User: Deletes a user via DELETE /users/:id with local state updates.
-Pagination: Supports page navigation with Previous/Next buttons and page size selection.
-Search & Filter: Case-insensitive search and filtering across multiple fields.
-Sorting: Click column headers to sort in ascending or descending order.
+- **Edit User**: Updates user data via PUT /users/:id using a prefilled form.
+- **Delete User**: Deletes a user via DELETE /users/:id with local state updates.
+- **Pagination**: Supports page navigation with Previous/Next buttons and page size selection.
+- **Search & Filter**: Case-insensitive search and filtering across multiple fields.
+- **Sorting**: Click column headers to sort in ascending or descending order.
 
 ⚠️ Note: JSONPlaceholder is a mock API, so data changes (add/edit/delete) are simulated and not persisted.
 
@@ -66,24 +67,14 @@ git clone https://github.com/<your-username>/user-management-dashboard
 cd user-management-dashboard
 ```
 
-Install Dependencies
+# Install Dependencies
 npm install
 
-Run the Project
+# Run the Project
 npm run dev
 
 
-Open http://localhost:5173 to view the app.
-
-Run Tests
-npm run test
-
-
-Executes 16 unit tests covering component rendering, form validation, and pagination.
-
-Ensures code quality and consistency using ESLint.
-
-Build for Production
+# Build for Production
 npm run build
 
 

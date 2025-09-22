@@ -43,13 +43,14 @@ Sorting: Click column headers to sort in ascending or descending order.
 
 ⚠️ Note: JSONPlaceholder is a mock API, so data changes (add/edit/delete) are simulated and not persisted.
 
-🧾 Validations & Error Handling
+# 🧾 Validations & Error Handling
 
 Form Validation:
-Required fields: First Name, Last Name, Email, Department.
-Email format validation using regex (\S+@\S+\.\S+).
-Error messages displayed below each field.
-
+```
+- Required fields: First Name, Last Name, Email, Department.
+- Email format validation using regex (\S+@\S+\.\S+).
+- Error messages displayed below each field.
+```
 
 API Error Handling:
 Displays user-friendly error messages for failed API requests (e.g., "Failed to fetch users").
@@ -58,11 +59,6 @@ Displays user-friendly error messages for failed API requests (e.g., "Failed to 
 Client-Side State Management:
 Local state updates simulate persistent changes for add/edit/delete operations.
 
-
-
-
-📸 Screenshots
-(Add screenshots of the dashboard, form, filter popup, and pagination controls here if available.)
 
 ▶️ Getting Started
 Prerequisites
@@ -89,20 +85,17 @@ npm run test
 
 Executes 16 unit tests covering component rendering, form validation, and pagination.
 
-Run Linting
-npm run lint
-
-
 Ensures code quality and consistency using ESLint.
 
 Build for Production
 npm run build
 
-Preview Production Build
-npm run preview
 
 
-📂 Folder Structure
+
+# 📂 Folder Structure
+
+```
 user-management-dashboard/
 ├── public/
 │   ├── index.html          # Main HTML file
@@ -133,6 +126,7 @@ user-management-dashboard/
 ├── .gitattributes          # Enforce LF line endings
 ├── vite.config.js          # Vite configuration
 
+```
 
 ## 🧪 Testing
 

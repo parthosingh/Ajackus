@@ -125,35 +125,35 @@ Pagination functionality (Previous/Next buttons, active page).
 
 
 ## Run tests with: 
-``
+```
 npm run test
 ```
 
 
-```
+
 ## 📌Assumptions  
-
-User names from JSONPlaceholder are split by space; last name defaults to 'N/A' if not present.
-Department is derived from company.name.
-JSONPlaceholder’s non-persistent nature requires local state for add/edit/delete simulations.
-Pagination supports 10, 25, 50, 100 rows per page with Previous/Next navigation.
-Search and filters are case-insensitive and applied client-side.
-Modal-based UI for forms and filters, reusing styles for DRY.
-No theme toggle implemented (optional feature not included).
-
+```
+- User names from JSONPlaceholder are split by space; last name defaults to 'N/A' if not present.
+- Department is derived from company.name.
+- JSONPlaceholder’s non-persistent nature requires local state for add/edit/delete simulations.
+- Pagination supports 10, 25, 50, 100 rows per page with Previous/Next navigation.
+- Search and filters are case-insensitive and applied client-side.
+- Modal-based UI for forms and filters, reusing styles for DRY.
+- No theme toggle implemented (optional feature not included).
+```
 
 ## 🛠️ Development Notes
 ```
-Code Quality: ESLint enforces consistent style (2-space indentation, single quotes, LF line endings).
-Commit History: Clean commits for scaffolding, features, tests, and fixes.
-Responsive Design: CSS ensures usability across devices.
-Error Handling: Robust handling for API failures and form validation.
+- Code Quality: ESLint enforces consistent style (2-space indentation, single quotes, LF line endings).
+- Commit History: Clean commits for scaffolding, features, tests, and fixes.
+- Responsive Design: CSS ensures usability across devices.
+- Error Handling: Robust handling for API failures and form validation.
 ```
 
 ## 🌐 Deployment
 ```
-Deployed on Vercel: https://ajackus-two-mu.vercel.app/
-Run locally with npm run dev or build for production with npm run build.
+- Deployed on Vercel: https://ajackus-two-mu.vercel.app/
+- Run locally with npm run dev or build for production with npm run build.
 ```
 
 

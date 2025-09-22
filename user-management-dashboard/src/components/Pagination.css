@@ -1,0 +1,30 @@
+/* Container for pagination buttons */
+.pagination {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button styling for page navigation */
+.pagination button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+}
+
+/* Highlight for active page */
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Disabled button styling */
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

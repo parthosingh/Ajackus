@@ -1,0 +1,45 @@
+/* Container for table to handle horizontal scrolling on small screens */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Table styling for clean layout */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Cell styling for consistency */
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Header styling with clickable cursor for sorting */
+th {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+/* Button styling for edit and delete actions */
+td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Edit button color */
+td button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Delete button color */
+td button:last-child {
+  background-color: #dc3545;
+  color: white;
+}

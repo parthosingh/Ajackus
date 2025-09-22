@@ -27,7 +27,6 @@ A web application built to manage user details through CRUD operations **(Create
 - **Styling**: Pure CSS
 - **HTTP Requests**: Native Fetch API
 - **Testing**: Vitest 3.2.4, React Testing Library 16.3.0, Jest-DOM 6.8.0
-- **Linting**: ESLint 9.36.0 with React, React Hooks, and React Refresh plugins
 - **Backend API**: JSONPlaceholder
 
 
@@ -60,15 +59,12 @@ Client-Side State Management:
 Local state updates simulate persistent changes for add/edit/delete operations.
 
 
-▶️ Getting Started
-Prerequisites
-
-Node.js (v16 or higher)
-npm (v8 or higher)
-
+# ▶️ Getting Started
+```bash
 Clone the Repository
 git clone https://github.com/<your-username>/user-management-dashboard
 cd user-management-dashboard
+```
 
 Install Dependencies
 npm install
